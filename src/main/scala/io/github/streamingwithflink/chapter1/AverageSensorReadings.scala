@@ -27,7 +27,7 @@ import org.apache.flink.util.Collector
 /** Object that defines the DataStream program in the main() method */
 object AverageSensorReadings {
 
-  /** main() defines and executes the DataStream program */
+  /** main() defines and executes the DataStream program1 */
   def main(args: Array[String]) {
 
     // set up the streaming execution environment
