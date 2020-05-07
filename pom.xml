@@ -80,6 +80,11 @@ under the License.
 			<version>${flink.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-connector-kafka-0.11_2.11</artifactId>
+			<version>1.7.2</version>
+		</dependency>
 		<!--
 		Derby is used for a sink connector example.
 		Example only works in local mode, i.e, it is not possible to submit it to a running cluster.
