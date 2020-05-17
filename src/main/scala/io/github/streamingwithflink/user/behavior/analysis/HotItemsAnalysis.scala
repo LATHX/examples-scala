@@ -48,7 +48,7 @@ object HotItemsAnalysis {
 
 
     // sink
-    dataStream.print()
+    processStream.print()
     env.execute("hot item job")
   }
 
